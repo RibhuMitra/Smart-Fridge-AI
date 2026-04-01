@@ -162,7 +162,7 @@ export default function Home() {
     try {
       const base64 = await toBase64(image);
       const res = await fetch(
-        `https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=AIzaSyCU_ZpaYSYHHxnElziHH9TtVukY65bM3RY`,
+        `https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=API_KEY_HERE`,
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
